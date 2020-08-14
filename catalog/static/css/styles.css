@@ -1,0 +1,25 @@
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+#sidebar-container {
+    border-right: 1px dotted black;
+}
+
+#title-bar {
+    padding-top: 20px;
+    margin-bottom: 5px;
+    height: 75px;
+    position: relative;
+    background-color: #edebeb;
+}
+#title-bar a {
+    color: rebeccapurple;
+}
+
+@media screen and (max-width: 576px) {
+    #sidebar-container {
+        border: 0;
+    }
