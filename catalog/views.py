@@ -3,7 +3,6 @@ from django.shortcuts import render
 # Create your views here.
 
 from catalog.models import Book, Author, BookInstance, Genre, Language
-from . import weatherAPI ## RE-WRITE THIS MODULE WITH OOP ##
 
 def index(request):
     """View function for home page of site."""
